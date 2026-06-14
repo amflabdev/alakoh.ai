@@ -1,6 +1,6 @@
 # 💼 AI Career & Skill Advisor Chatbot
 
-An intelligent, conversational web application built with **Python Language**. The application develops with tech stack for instances, **LangChain**, **Flask**, **Flask-JWT-Extended**, **PostgreSQL**, **ChromaDB**, and **Google Gemini 2.5 Flash**. The application acts as an expert career consultant, analyzing user criteria to deliver tailored job recommendations, skill gap analyses, and actionable learning roadmaps.
+An intelligent, conversational web application built with **Python Language**. The application develops with tech stack for instances, **LangChain**, **Flask**, **Flask-JWT-Extended**, **PostgreSQL**, **FAISS**, and **Google Gemini 2.5 Flash**. The application acts as an expert career consultant, analyzing user criteria to deliver tailored job recommendations, skill gap analyses, and actionable learning roadmaps.
 ---
 
 ## 🌟 Key Features
@@ -48,7 +48,7 @@ Best for: Rapid horizontal/vertical scaling, service isolation, and future migra
 Files are sliced vertically by business domains (Bounded Contexts). Each folder acts as an independent application component that can eventually be broken off into separate hardware nodes.
 
 ```
-ai-career-advisor/
+alokoh.ai/
 │
 ├── config/                           # System Core Bootstrapping
 │   ├── settings.py                   # Environment variable parser (.env configurations)
