@@ -1,0 +1,41 @@
+# 1. Backend Server Manifest (app_server/requirements.txt)
+
+# --- Web Framework & System Routing ---
+Flask==3.1.0
+Flask-Cors==5.0.0
+
+# --- Identity, Session & Token Security ---
+PyJWT==2.10.1
+bcrypt==4.2.1
+Flask-JWT-Extended==4.6.0
+
+# --- Infrastructure & Relational Storage Layer ---
+psycopg2-binary==2.9.10
+SQLAlchemy==2.0.38
+Flask-SQLAlchemy==3.1.1
+
+# 2. Cognitive Compute Manifest (app_ai/requirements.txt)
+
+# --- Configuration & Environment Setup ---
+python-dotenv==1.0.1
+
+# --- Frontend Interface Engine ---
+streamlit==1.42.0
+
+# --- LLM Orchestration Framework ---
+langchain==0.3.14
+langchain-core==0.3.29
+langchain-community==0.3.14
+
+# --- AI Models & Provider Core Adapters ---
+langchain-google-genai==2.0.8
+google-genai==0.1.1
+
+# --- Vector Database & Embeddings Storage ---
+chromadb==0.6.3
+sentence-transformers==3.4.1
+
+# --- Security Handsakes & Utilities ---
+PyJWT==2.10.1
+python-dotenv==1.0.1
+requests==2.32.3

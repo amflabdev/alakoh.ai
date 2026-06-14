@@ -1,0 +1,97 @@
+# ==========================================
+# 1. Environment Variables & API Secrets (CRITICAL)
+# ==========================================
+.env
+.env.[a-zA-Z0-9]*
+*.env
+*.secrets
+secrets.toml
+__pycache__/
+*.pyc
+.streamlit/
+.devcontainer/
+
+# ==========================================
+# 2. Python Core & Compiled Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# 3. Virtual Environments
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+active_env/
+conda-env/
+
+# ==========================================
+# 4. Chatbot Specifics (Databases & Vector Stores)
+# ==========================================
+# Local databases storing chat history
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector embeddings storage (Chroma, FAISS, LanceDB, etc.)
+.chroma/
+chroma_db/
+faiss_index/
+*.index
+data/vector_store/
+
+# Downloaded LLM weights or models (Ollama, HuggingFace local caches)
+models/
+*.bin
+*.gguf
+.cache/huggingface/
+
+# ==========================================
+# 5. IDE, Editors, and OS Files
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# 6. Logging & Runtime Traces
+# ==========================================
+*.log
+logs/
+.pytest_cache/
+.htmlcov/
+htmlcov/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.trace
